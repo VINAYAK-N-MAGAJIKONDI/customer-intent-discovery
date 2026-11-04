@@ -1,15 +1,3 @@
----
-title: Customer Intent Discovery Platform
-emoji: 🎯
-colorFrom: blue
-colorTo: indigo
-sdk: streamlit
-sdk_version: 1.35.0
-app_file: app.py
-pinned: false
-license: apache-2.0
----
-
 # Customer Intent Discovery Platform
 
 [![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-intent-discovery.streamlit.app/)
