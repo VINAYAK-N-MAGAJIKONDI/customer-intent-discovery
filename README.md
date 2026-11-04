@@ -12,11 +12,14 @@ license: apache-2.0
 
 # Customer Intent Discovery Platform
 
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-intent-discovery.streamlit.app/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.35%2B-red.svg)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.35%2B-red.svg)](https://customer-intent-discovery.streamlit.app/)
 [![Sentence-Transformers](https://img.shields.io/badge/Sentence--Transformers-all--MiniLM--L6--v2-orange.svg)](https://www.sbert.net/)
 [![Unsupervised Discovery](https://img.shields.io/badge/Algorithm-HDBSCAN%20%2B%20UMAP-purple.svg)](https://scikit-learn.org/)
+
+🌐 **Live Public Deployment**: [**https://customer-intent-discovery.streamlit.app/**](https://customer-intent-discovery.streamlit.app/)
 
 > **A production-ready, unsupervised Natural Language Processing platform that ingests raw, unlabeled customer inquiries and automatically discovers, groups, interprets, evaluates, and visualizes customer intent segments.**
 
