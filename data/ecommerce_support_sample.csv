@@ -1,0 +1,47 @@
+query,true_intent
+Where is my package? The tracking number is not updating,order_tracking
+Can I get a tracking link for order #98321?,order_tracking
+Tracking says delivered but I did not receive my parcel,order_tracking
+Has my order shipped yet?,order_tracking
+Check shipment status for order 4920,order_tracking
+Estimated delivery date for my recent purchase?,order_tracking
+"My item was supposed to arrive yesterday, where is it?",order_tracking
+Track my express delivery order,order_tracking
+How do I return a damaged jacket?,returns_and_refunds
+I want to return an item that does not fit,returns_and_refunds
+What is your return policy window?,returns_and_refunds
+How long does a refund take to appear on my credit card?,returns_and_refunds
+I sent my return two weeks ago but haven't received refund,returns_and_refunds
+Can I exchange this for a different size?,returns_and_refunds
+Return shipping label was not included in the box,returns_and_refunds
+Where do I drop off my return package?,returns_and_refunds
+I was charged twice for order 1029,billing_issue
+There is an unauthorized charge from your store on my statement,billing_issue
+Why was my coupon code discounted incorrectly on the invoice?,billing_issue
+I need an itemized VAT invoice for my company,billing_issue
+My card was charged but order status says cancelled,billing_issue
+Double payment detected on my debit card,billing_issue
+Can I pay with PayPal or Apple Pay?,payment_methods
+Do you support split payment across two cards?,payment_methods
+Payment declined even though I have sufficient funds,payment_methods
+Why is Klarna installment option not showing up at checkout?,payment_methods
+I want to cancel my order before it ships,order_cancellation
+Can you please cancel order #8841 immediately?,order_cancellation
+"Accidentally ordered two items, please cancel one",order_cancellation
+Cancel my subscription recurring order,order_cancellation
+How do I change my shipping address after placing the order?,address_change
+"Wrong delivery address entered, please update to 123 Main St",address_change
+Can I redirect the shipment to a pickup locker?,address_change
+I moved houses and need to change destination address,address_change
+My promo code SUMMER20 says expired but it should be valid,promotions_and_discounts
+Discount code not applying to sale items,promotions_and_discounts
+Where do I enter the gift card promo voucher?,promotions_and_discounts
+Do you offer student discounts or military discounts?,promotions_and_discounts
+My blender arrived broken and the glass is shattered,damaged_or_wrong_item
+"Received wrong product, ordered blue headphones but got red shoes",damaged_or_wrong_item
+The package box was completely crushed during delivery,damaged_or_wrong_item
+"Missing parts in the box, hardware screws are absent",damaged_or_wrong_item
+I cannot log in to my account password reset not arriving,account_access
+Locked out of my account after multiple attempts,account_access
+How do I update my email address associated with my account?,account_access
+Please delete my account and personal data permanently,account_access

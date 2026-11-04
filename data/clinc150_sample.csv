@@ -1,0 +1,481 @@
+query,true_intent
+can you get me a table for 2 at mexico viejo at 3pm,restaurant_reservation
+reserve a table for two for 7:30 pm at dibruno's under patrick donoghue,restaurant_reservation
+you must reserve a table for 4 at red robin under the name kevin at 7,restaurant_reservation
+i'd like a reservation for 2 at olive garden for 5 pm today,restaurant_reservation
+i need to make a reservation for 8 pm at red robin for 3,restaurant_reservation
+i think i need to make a reservation for 8 pm at red robin for 3,restaurant_reservation
+can you get me a table for 4 at steve's,restaurant_reservation
+i need you to reserve a table for 6:00 pm for three at devon's seafood,restaurant_reservation
+"hello, i'd like a reservation for two at the olive garden at six tonight",restaurant_reservation
+"i think we should reserve dad's regular table friday for 6 people, use his name, make that close to 4:00 pm at the club",restaurant_reservation
+make a reservation at 5 pm today for 2 at olive garden,restaurant_reservation
+you have to reserve a table for 4 at red robin under the name kevin at 7,restaurant_reservation
+book a reservation for 4 at outback steakhouse under the name dave,restaurant_reservation
+can you get me a table for 6 at johnnys,restaurant_reservation
+make a reservation for three at prime rib at 6:30 pm,restaurant_reservation
+i gotta make a reservation for 8 pm at red robin for 3,restaurant_reservation
+can i make a reservation for 8 pm at red robin for 3,restaurant_reservation
+please make me a reservation for monty's at noon for 55555,restaurant_reservation
+please reserve me a table for 2 pm at maxwell's on the 14th,restaurant_reservation
+"hey computer, make a reservation for 2 for my parents at red lobster on wednseday next, 2:00pm if possible",restaurant_reservation
+can i make a reservation for 2 at state bird for 8:30,restaurant_reservation
+make me a reservation for 5 at coral for 10 pm immediately,restaurant_reservation
+please reserve a table for two at rouge for 7:00 pm,restaurant_reservation
+can you get me a table for 5 at johnnys,restaurant_reservation
+reserve a table for 3 at outback steakhouse under the name lance at 7:00pm,restaurant_reservation
+is it possible to get a table for 4 at the village inn around 10am,restaurant_reservation
+please make a reservation for us at joy bar for 4 adults,restaurant_reservation
+can you get me a table for two for 8:00 pm at parc,restaurant_reservation
+"now, i need a reservation for backwoods crossing at seven for 6 people",restaurant_reservation
+i would like a reservation for 6:30 pm at pietro's under the name david jones,restaurant_reservation
+can you get me a table for 1 at the vega at 1pm,restaurant_reservation
+i need you to reserve a table for 4 at red robin under the name kevin at 7,restaurant_reservation
+can you book a table at the restaurant for me and my husband,restaurant_reservation
+i want you to book a reservation for 8 pm at red robin under the name kevin,restaurant_reservation
+please book a reservation for 8 pm at red robin under the name kevin,restaurant_reservation
+i want to reserve a table at 8 at long john silver's under the name freddie,restaurant_reservation
+"can i make a reservation for 2 at state bird for 7:30, please",restaurant_reservation
+i want to have a table for 2 at the broadmore around 6,restaurant_reservation
+i want to make a reservation for 8 pm at red robin for 3,restaurant_reservation
+can i reserve a table for 2 at the olive garden at 8,restaurant_reservation
+reserve a table for 5 at lawry's under the name steve at 8:00pm,restaurant_reservation
+book a reservation for 3 at red lobster under the name steve,restaurant_reservation
+can you get me a table for 8 at johnnys,restaurant_reservation
+make me a reservation for tomorrow at happys for four,restaurant_reservation
+book a reservation for 8 pm at red robin under the name kevin,restaurant_reservation
+"call and make a 5:45 pm reservation for jason rogers, table for four",restaurant_reservation
+can you make a reservation for me at the restaurant,restaurant_reservation
+i need you to reserve at table for a party of four at devon's for 6:00 pm,restaurant_reservation
+reserve a table for 4 at red lobster under the name dave at 7:30pm,restaurant_reservation
+can you get me a table for 6 at mark's at 11am,restaurant_reservation
+what items are on my shopping list,shopping_list
+do i have a big shopping list,shopping_list
+list out my shopping list for me,shopping_list
+does my shopping list consist of chips,shopping_list
+i need to know what is on my shopping list,shopping_list
+does my shopping list include corn,shopping_list
+i need to know the items on my shopping list,shopping_list
+whats on my list for shopping,shopping_list
+display shopping list,shopping_list
+read my entire shopping list to me,shopping_list
+are tomatoes on my shopping list,shopping_list
+list out what is on my shopping list,shopping_list
+tell me the things on my shopping list,shopping_list
+what all is on my shopping list,shopping_list
+my list for shopping has what on it,shopping_list
+what did i write down on my shopping list this time,shopping_list
+is ice cream currently on my shopping list,shopping_list
+tell me what i can find on the shopping list,shopping_list
+what do i need when i go shopping,shopping_list
+do you want peanut butter for your lunches this week,shopping_list
+is a toothbrush on my shopping list,shopping_list
+tell me what i put on the shopping list,shopping_list
+read me my shopping list please,shopping_list
+what do i need to go shopping for,shopping_list
+i need to hear what's on my shopping list,shopping_list
+do i need milk at the store,shopping_list
+i need to know the things on my shopping list,shopping_list
+which purchases are on my shopping list,shopping_list
+what are my shopping list's content,shopping_list
+my shopping list contains what,shopping_list
+what things are on my shopping list,shopping_list
+can you look up what my shopping list has on it,shopping_list
+read me my shopping list,shopping_list
+what do i need to buy at the store,shopping_list
+show me my shopping list,shopping_list
+read me everything on my shopping list,shopping_list
+does my shopping list include apples right now,shopping_list
+what is available on the shopping list,shopping_list
+name the items on my shopping list,shopping_list
+read my shopping list to me,shopping_list
+what does my shopping list involve,shopping_list
+would you let me know what is on my shopping list,shopping_list
+tell me what's on my shopping list,shopping_list
+what are the contents of my shopping list,shopping_list
+what does my shopping list entail,shopping_list
+"can you tell me my shopping list items, please",shopping_list
+pull up my shopping list for me,shopping_list
+tell me whats on my shopping list,shopping_list
+what stuff did i put on my shopping list,shopping_list
+do i have tomato on the shopping list,shopping_list
+how can i send money from one account to another,transfer
+transfer $500 from my checking to my savings,transfer
+transfer $20000 from my savings account to checking account,transfer
+i need to transfer from this account to that one,transfer
+i would like to transfer $5 from savings to checking,transfer
+please transfer $100 from my checking to my savings account,transfer
+send my money between accounts,transfer
+take $40 from account a and transfer it to account b,transfer
+help me transfer $x from credit to debit,transfer
+i need to throw some money into that other account,transfer
+i want you to send ten dollars from bank of america to capital one,transfer
+make a transfer of $200 from my savings account to my checking account,transfer
+let's send some money to another account,transfer
+transfer 100 dollars between checking and savings,transfer
+what is the process to move money from one account to another,transfer
+put $20000 into my checking account from my savings account,transfer
+send 400 dollars between city bank and usaa accounts,transfer
+transfer fifty dollars between my chase and bank of america account,transfer
+can you transfer money from my account,transfer
+send 50 dollars between bank of america and chase accounts,transfer
+help me move my money please,transfer
+can we wire some money over to the other account i have,transfer
+take $20000 from savings and put it in checking,transfer
+transfer $10 from checking to savings,transfer
+transfer 100 dollars checking to savings,transfer
+send 2000 dollars between chase and rabobank accounts,transfer
+put $40 from account a to b,transfer
+i would like to make a transfer,transfer
+i have to transfer ten dollars from my bank of america account to my capital one account,transfer
+i need you to send 500 dollars from my high tier account to my regular checking account,transfer
+send money from one account to another,transfer
+transfer money from one place to another,transfer
+i need to transfer ten dollars from my bank of america account to my capital one account,transfer
+please transfer my funds,transfer
+move $40 from account b to account a,transfer
+can i initiate a one-time transfer from my savings account to my money market account,transfer
+please switch $s checking to mortage,transfer
+deposit ten bucks from my chase account to my ally account,transfer
+please transfer 100 dollars between my amazon payments and savings accounts,transfer
+move 100 dollars from checking to savings,transfer
+send money to another account,transfer
+transfer two hundred dollars between my portfolio and my money market account,transfer
+send 100 dollars from checking to savings,transfer
+transfer $500 from my money market savings account to my checking account,transfer
+send $5 from savings to checking,transfer
+take $40 and transfer it to account a from b,transfer
+i need to move money from one account to another,transfer
+i need ten dollars sent from b of a to washington mutual,transfer
+i want seventy bucks transferred from b of a to chase,transfer
+i need my money to be moved,transfer
+i advise you to quit talking,cancel
+terminate current process,cancel
+stop,cancel
+i want you to cancel the current action,cancel
+"what you are doing is not actually helpful, please cancel the action",cancel
+shhhh,cancel
+just shut up,cancel
+mute,cancel
+"that's enough, don't say anymore please",cancel
+cancel that last command,cancel
+"stop working on it, i need something else",cancel
+"never mind, don't do that",cancel
+i don't want you to speak any more for now,cancel
+oh shut the hell up would you,cancel
+"cancel my last request, i know the answer",cancel
+can you end the task,cancel
+refrain from talking,cancel
+undo,cancel
+"never mind, cancel that",cancel
+can you cancel,cancel
+"please cancel what you are doing, i've changed my mind",cancel
+"nevermind, cancel that",cancel
+no more talking,cancel
+undo this process,cancel
+don't continue with what you're doing,cancel
+"ai, cancel that last request",cancel
+halt,cancel
+cancel action,cancel
+quiet now,cancel
+i would like you to stop what you were doing,cancel
+can you stop speaking,cancel
+abort running program,cancel
+ai stop talking,cancel
+halt the process,cancel
+"ai, shut up",cancel
+"i actually don't want this anymore, please abort",cancel
+please cancel the input,cancel
+stop and go back,cancel
+i need you to stop talking now,cancel
+abort,cancel
+stop that,cancel
+halt that immediately,cancel
+please abandon the current job,cancel
+cancel that,cancel
+abort the current action,cancel
+oops cancel that,cancel
+could you stop talking for a second,cancel
+don't do this process,cancel
+"ai, stop talking",cancel
+actually forget that i don't need it,cancel
+how much do i have in savings,balance
+what's my checking balance,balance
+what is status of my bank account,balance
+what's my current bank savings,balance
+what is my money market account balance,balance
+is there enough money in my discover account for a vacation,balance
+what is my balance in checking account,balance
+what is remaining in my bank acccounts,balance
+what's my savings balance at chase,balance
+what amount of money is in my bank accounts,balance
+is there enough money in my discover account for a new pair of jeans,balance
+what's the total of my bank accounts,balance
+how much do i have in my checking,balance
+how much is left of mastercard,balance
+what's my bank balance,balance
+check my visa account and see if i have enough money for dinner tonight,balance
+what is my checking account balance at chase,balance
+how much is available in my savings account,balance
+what is my bank balance,balance
+could you tell me what my checking account balance is,balance
+what's my checking account balance,balance
+can you tell me my current bank accounts balance,balance
+i wanna know the balance of my bank of american account,balance
+how much is the current balance in my td bank savings account,balance
+what is the balance of my bank accounts,balance
+how much money do i have in my account,balance
+i wish to know the balance of my bank of american account,balance
+what is my bank balance for all accounts,balance
+i wanna know my bank balance,balance
+how much is in savings,balance
+tell me what i have in my money market account,balance
+savings account balance at chase bank please,balance
+what is in my bank accounts,balance
+can you tell me how much cash i have,balance
+how much total cash do i have in the bank,balance
+do i have any cash left,balance
+can the funds in my wells fargo account cover my lift tickets,balance
+what is my current balance on my home equity line of credit,balance
+what is the total of my bank accounts,balance
+what what kind money is available in my bank accounts,balance
+what is the available balance in savings,balance
+i need to know my bank balance,balance
+do i have enough in my chase account for a plane ticket,balance
+how much money is left in my bank accounts,balance
+check chase bank for my checking balance,balance
+what is my balance,balance
+what is my savings account balance,balance
+what's the balance on my bank account,balance
+i want my checking balance at chase,balance
+please tell me my bank balance,balance
+"could you check if my order has been delivered, please",order_status
+check on the status of my order,order_status
+"can you check to see if my order has been delivered, please",order_status
+can you find my package in transit,order_status
+check up on the status of my online order,order_status
+has my order been shipped,order_status
+where is my order,order_status
+when can i expect to receive the order,order_status
+can you see if my order was delivered,order_status
+did my order ship,order_status
+could you check to see if my order has been delivered,order_status
+has my delivery order arrived yet,order_status
+has the order that i placed arrived,order_status
+help me find my package,order_status
+where's my package,order_status
+look up the status of the order i placed online,order_status
+show me where my order is,order_status
+where is my delivery order,order_status
+can you tell me if my last amazon order is coming today,order_status
+could you please track my package,order_status
+where's my package right now,order_status
+"i ordered for delivery, has is arrived yet",order_status
+do you know where my package is,order_status
+when will my package arrive,order_status
+how soon will me package arrive,order_status
+track my package please,order_status
+when can i expect my order,order_status
+will my order be here by saturday,order_status
+"i just placed my order today, what is the status of it",order_status
+"hey, i just put in my order and i was wondering what the status of it",order_status
+can you check on the status of my orders at amazon,order_status
+"track package, please",order_status
+can you help me find my package,order_status
+"i ordered some curtains off amazon, can you tell me if it's been shipped yet",order_status
+what's going on with my order,order_status
+what is the tracking on my package,order_status
+has my online order shipped yet,order_status
+can you give me a status update on my online order from amazon,order_status
+what is the status of my recent order,order_status
+was my order dropped off,order_status
+is my order shown as delivered,order_status
+are you able to tack my package,order_status
+is my package able to be tracked by you,order_status
+i need an update on my online order from nespresso,order_status
+has my delivery order showed up,order_status
+order status,order_status
+"check status on my deliver, has it been delivered",order_status
+what is the status of my order,order_status
+is the packaged delivered already,order_status
+are you able to track my package,order_status
+go back to factory settings please,reset_settings
+i want you to reset your factory settings,reset_settings
+do a hard reset,reset_settings
+revert to your factory settings,reset_settings
+change back to your initial settings please,reset_settings
+"revert to your factory settings, please",reset_settings
+reset to your natural settings,reset_settings
+refresh to factory defaults,reset_settings
+would you please reboot yourself to factory settings,reset_settings
+i need you to reset your factory settings,reset_settings
+change to factory settings now,reset_settings
+i want to go back to the factory settings,reset_settings
+reset to original settings,reset_settings
+go back to factory settings now,reset_settings
+please go back to the original settings,reset_settings
+go ahead and reset your factory settings,reset_settings
+i would like you to revert to your factory settings,reset_settings
+please reconfigure yourself back to factory settings,reset_settings
+could you reset your factory settings please,reset_settings
+go back to initial factory state,reset_settings
+i want to reset your settings to the original,reset_settings
+i want you to reset to brand new please,reset_settings
+do a hard reset to factory settings,reset_settings
+reset to default settings,reset_settings
+change settings to how they were originally,reset_settings
+go ahead and go back to the original settings,reset_settings
+make the settings go back to the original,reset_settings
+"revert back to your factory settings, please",reset_settings
+restore your original settings now,reset_settings
+go to default setting,reset_settings
+go back to the original settings now,reset_settings
+you need to go back to the original settings,reset_settings
+go back to your original settings,reset_settings
+reset to default settings please,reset_settings
+please reset the factory settings,reset_settings
+i want to put you back to original settings,reset_settings
+i'd like to switch back to my factory settings,reset_settings
+please go back to to factory settings now,reset_settings
+let's go to default settings,reset_settings
+help me get my device back to it's factory settings,reset_settings
+i want you reset to factory settings,reset_settings
+i'd like to reset to factory settings,reset_settings
+reset the factory settings if possible,reset_settings
+clear all settings in a reset,reset_settings
+go back the the settings you had originally,reset_settings
+i'd like to revert to factory settings,reset_settings
+you got to go back to factory settings now,reset_settings
+go to factory settings,reset_settings
+return to your original settings,reset_settings
+please go back to your factory settings,reset_settings
+whats my delta flight's status,flight_status
+when is my flight due to arrive,flight_status
+when does my flight arrive,flight_status
+is there an update on flight dl123,flight_status
+when does boarding for my flight begin,flight_status
+how long until delta is at the gate,flight_status
+can you update me with the status of flight dl123,flight_status
+whats the status of my south west flight,flight_status
+i would appreciate it if you could tell me the status of my southwest flight,flight_status
+what is the scheduled landing time for my flight,flight_status
+what is the projected time frame for the flight to land,flight_status
+when's my flight getting here,flight_status
+whats the status of my delta flight,flight_status
+do you mind informing me the status of my southwest flight,flight_status
+please tell me the status of my southwest flight,flight_status
+look up when my flight is set to start boarding,flight_status
+at what time will my flight begin boarding,flight_status
+when should i expect my flight to come in,flight_status
+what time will i be able to board the plane,flight_status
+can you tell me what time this flight is going to land,flight_status
+tell me the status of flight dl123,flight_status
+when is my plane scheduled to land,flight_status
+can you check when my flight lands,flight_status
+is there any news on flight dl123,flight_status
+what's my flight's eta,flight_status
+will my delta flight leave on time,flight_status
+i wanna know when my flight scheduled to board,flight_status
+tell me what time my flight ought to be landing,flight_status
+at what point will this flight start letting people board,flight_status
+when will my flight land,flight_status
+i gotta know when my flight will land,flight_status
+i would like to know when my flight scheduled to board,flight_status
+when's my flight boarding,flight_status
+what time will my flight be boarding,flight_status
+when will my jetblue flight get here,flight_status
+is my delta flight on time,flight_status
+what time is my flight supposed to board,flight_status
+when will i get to my destination,flight_status
+what time is my flight scheduled to leave,flight_status
+so when is my flight landing,flight_status
+is flight dl123 on time,flight_status
+when should the flight land,flight_status
+give me the status of flight dl123,flight_status
+i need to know the status of my alaska air flight,flight_status
+can you tell me the status of my delta flight,flight_status
+i need to know the status of flight dl123,flight_status
+please tell me when my flight will land,flight_status
+please inform me when my flight scheduled to board,flight_status
+when will my delta flight depart,flight_status
+at what time will my flight land,flight_status
+how much is an overdraft fee for bank,out_of_scope_noise
+why are exponents preformed before multiplication in the order of operations,out_of_scope_noise
+what size wipers does this car take,out_of_scope_noise
+where is the dipstick,out_of_scope_noise
+how much is 1 share of aapl,out_of_scope_noise
+how is glue made,out_of_scope_noise
+any headlines from my area,out_of_scope_noise
+what is the largest state in the us,out_of_scope_noise
+what is the current market trend,out_of_scope_noise
+what is the most popular airline,out_of_scope_noise
+what is the formula for the circumference of a circle,out_of_scope_noise
+what are some ways to reduce spending,out_of_scope_noise
+what time does the louvre open,out_of_scope_noise
+are there any local stations covering the moral march in raleigh in februaryu,out_of_scope_noise
+how many planets have we discovered,out_of_scope_noise
+how do i change my billing address,out_of_scope_noise
+how do i open an online line of credit,out_of_scope_noise
+how do i remove a coffee blemish,out_of_scope_noise
+how expensive is an apple share,out_of_scope_noise
+where can i find the cruise control on my kia sportage 2010,out_of_scope_noise
+how many sides are in a hexagon,out_of_scope_noise
+how fast does an airplane travel,out_of_scope_noise
+is it worth investing in target,out_of_scope_noise
+i need to speak to customer service regarding my flight,out_of_scope_noise
+how long do wire transfers take,out_of_scope_noise
+what are some deals on amazon,out_of_scope_noise
+what city is the super bowl,out_of_scope_noise
+what trees change color in autumn,out_of_scope_noise
+do people prefer summer over fall,out_of_scope_noise
+how long is winter,out_of_scope_noise
+what were some of ben franklin's notable accomplishments,out_of_scope_noise
+where was john denver born,out_of_scope_noise
+where did abraham lincoln live,out_of_scope_noise
+when was kobe bryant born,out_of_scope_noise
+who's toledo's starting point guard for the next game,out_of_scope_noise
+how many players are on the chicago bulls,out_of_scope_noise
+who is the coach of the chicago bulls,out_of_scope_noise
+when do the utah jazz play next,out_of_scope_noise
+what other nations were involved in the chinese trade war,out_of_scope_noise
+what years has korea been at war,out_of_scope_noise
+when was the theory of evolution first considered,out_of_scope_noise
+who formulated the theory of relativity,out_of_scope_noise
+what stage of evolution am i,out_of_scope_noise
+what other personality type is most compatible with infjs,out_of_scope_noise
+what does my personality mean,out_of_scope_noise
+what's the most dominant scale in bluegrass,out_of_scope_noise
+what year was saxaphone first played,out_of_scope_noise
+which piano is best for classical,out_of_scope_noise
+is k-12 education required outside of the united states,out_of_scope_noise
+what are the benefits of completing college,out_of_scope_noise
+are you able to answer algebra equations,out_of_scope_noise
+can you help me study for a history exam,out_of_scope_noise
+how many points per game is lebron james averaging this season,out_of_scope_noise
+what team does eli mannign play for,out_of_scope_noise
+get me dwight howard shooting average,out_of_scope_noise
+can you list me tiger wood's stats,out_of_scope_noise
+what's the runtime of all the lord of the rings movies combined,out_of_scope_noise
+which character is the most famous from titanic,out_of_scope_noise
+how many oscars did star wars films win,out_of_scope_noise
+what year was shawshank redemption released,out_of_scope_noise
+which marvel character has appeared in the most movies,out_of_scope_noise
+when's the next movie starring thor set to come out,out_of_scope_noise
+who was the first capcom character,out_of_scope_noise
+are any justice league movies coming out,out_of_scope_noise
+can you tell me something about the nfl,out_of_scope_noise
+please explain the catch rule to me,out_of_scope_noise
+is there overtime in college football,out_of_scope_noise
+when did the mls start,out_of_scope_noise
+what's the best price on super smash bros ultimate right now,out_of_scope_noise
+what is the highest earning game on atari,out_of_scope_noise
+when is the next nintendo direct,out_of_scope_noise
+when was nintendo created,out_of_scope_noise
+please find the capital of pakistan and its population,out_of_scope_noise
+how many people live in taiwan,out_of_scope_noise
+what are some of picasso's most famous works,out_of_scope_noise
+what are van gogh's best pieces,out_of_scope_noise
+where can i see art,out_of_scope_noise
+when did camus die,out_of_scope_noise
+how much money does radiohead earn a year,out_of_scope_noise
+who is radiohead,out_of_scope_noise
