@@ -208,33 +208,50 @@ Deploy directly using the provided `Dockerfile`. Set healthcheck URL to `/_stcor
 
 ## 7. User Guide & Interface Walkthrough
 
-1. **Tab 1: Dataset & Audit**
-   - Upload any CSV or pick a benchmark dataset (Banking77, CLINC150, E-Commerce).
-   - Select your customer query column.
-   - Inspect dataset diagnostics (missing rows, duplicate queries, character/word length distributions).
-   - Click **Apply Preprocessing & Prepare Embeddings**.
-2. **Tab 2: Discovery Engine**
-   - Select algorithm (HDBSCAN recommended).
-   - Adjust `Min Cluster Size` (smaller = more fine-grained intents; larger = broader macro-categories).
-   - Click **Discover Customer Intents Now** to trigger the 4-step pipeline.
-3. **Tab 3: Discovered Intents**
-   - View executive KPI tiles (Discovered Intents, Clustered %, Noise %, Mean Coherence, Silhouette).
-   - Explore expandable intent cards showing:
-     * Discovered Intent Name & Description.
-     * Representative Customer Voice (Centroid Medoid).
-     * Distinctive c-TF-IDF keyword tags.
-     * Interactive table of all customer queries in that intent.
-     * Single-click **Export Intent Queries (CSV)** button.
-4. **Tab 4: Visualizations**
-   - **2D Semantic Cluster Map**: Interactive UMAP or PCA scatter plot. Hover over points to read the authentic customer query.
-   - **Volume & Frequency Chart**: Bar plot showing query volumes across all discovered groups.
-5. **Tab 5: Quality Evaluation & Overlap**
-   - View Silhouette Score, Davies-Bouldin Index, Calinski-Harabasz Index, and Semantic Coherence.
-   - Examine the **Inter-Intent Semantic Overlap Heatmap** to spot semantically adjacent intents. Any pair with similarity $\ge 0.70$ is flagged with a consolidation recommendation.
-6. **Tab 6: Export Center**
-   - **Annotated Queries (CSV)**: Original dataset with intent ID, name, description, confidence, and keywords.
-   - **Intent Summary (CSV)**: Executive overview table.
-   - **Full Schema (JSON)**: Programmatic JSON payload.
+### Step 1: Data Ingestion & Quality Audit
+Upload any custom customer CSV file or choose from one of the verified benchmarks. The platform automatically detects the customer query column, calculates dataset profiling statistics, normalizes formatting, and isolates missing or duplicate records.
+
+![Data Ingestion](docs/screenshots/01_data_ingestion.png)
+
+![Dataset Profiling & Preprocessing Audit](docs/screenshots/02_dataset_profiling.png)
+
+---
+
+### Step 2: Unsupervised Intent Discovery Engine
+Select your discovery algorithm (**HDBSCAN**, **Agglomerative Hierarchical**, or **K-Means**), adjust `Min Cluster Size` to set granularity, and execute the 4-stage pipeline with real-time progress tracking.
+
+![Discovery Engine](docs/screenshots/03_discovery_engine.png)
+
+---
+
+### Step 3: Discovered Intents Dashboard
+Review executive KPI metrics (Discovered Intents, Clustered %, Outlier %, Mean Coherence, Silhouette Score). Expand each discovered intent card to see the authentic **Centroid Medoid** customer question, distinctive **c-TF-IDF** keyword badges, an interactive query drill-down table, and a 1-click single-intent CSV exporter.
+
+![Discovered Intents Dashboard](docs/screenshots/04_discovered_intents.png)
+
+---
+
+### Step 4: 2D Interactive Semantic Visualizations
+Explore customer query relationships through interactive **UMAP** and **PCA** 2D manifold scatter plots with rich hover inspection, as well as intent volume distributions and distinctive keyword bar charts.
+
+![Interactive 2D Semantic Map](docs/screenshots/05_semantic_map_2d.png)
+
+---
+
+### Step 5: Clustering Quality & Overlap Evaluation
+Inspect mathematical validation metrics (**Silhouette Score**, **Davies-Bouldin Index**, **Calinski-Harabasz Index**) with clear interpretations. The **Inter-Intent Semantic Overlap Heatmap** calculates pairwise centroid cosine similarities and flags potential merge candidates (similarity ≥ 0.70).
+
+![Quality Evaluation & Overlap Heatmap](docs/screenshots/06_quality_evaluation.png)
+
+---
+
+### Step 6: Data Export Center
+Download your results in downstream-ready formats:
+- **Annotated Queries (CSV)**: Original dataset enriched with discovered intent IDs, human-readable titles, descriptions, confidence, and keyword tags.
+- **Intent Summary (CSV)**: Executive overview table of discovered segments, counts, percentages, and medoids.
+- **Full Schema (JSON)**: Complete programmatic analysis payload.
+
+![Data Export Center](docs/screenshots/07_export_center.png)
 
 ---
 
